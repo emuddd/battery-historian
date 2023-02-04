@@ -56,7 +56,7 @@ import (
 
 const (
 	// maxFileSize is the maximum file size allowed for uploaded package.
-	maxFileSize = 100 * 1024 * 1024 // 100 MB Limit
+	maxFileSize = 200 * 1024 * 1024 // 200 MB Limit
 
 	minSupportedSDK        = 21 // We only support Lollipop bug reports and above
 	numberOfFilesToCompare = 2
